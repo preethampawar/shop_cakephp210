@@ -24,7 +24,7 @@
 /app_mam/tmp/*
 /app_varaprasad/tmp/*
 
-/app_myshop/webroot/croppie_uploads/*
+app_myshop/webroot/croppie_uploads/*
 
 
 /lib/Cake/Console/Templates/skel/tmp/
