@@ -1,0 +1,74 @@
+﻿:root {
+    --cus-purple: #6a52a3;
+    --cus-purple-dark: #563d7c;
+    --cus-orange: #ff7003;
+    --cus-orange-dark: #da6d03;
+    --cus-maroon: #721c24;
+    --cus-maroon-dark: #611c24;
+    --cus-light-grey: #f8f8f8;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.85);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,1.0);
+}
+
+.bg-purple {
+    background-color: var(--cus-purple);
+    color: var(--bs-white);
+}
+
+.text-purple {
+    background-color: var(--cus-purple);
+}
+
+.btn-purple {
+    background-color: var(--cus-purple);
+    color: var(--cus-light-grey);
+}
+
+.btn-purple:hover {
+    background-color: var(--cus-purple-dark);
+    color: var(--bs-white);
+}
+
+.bg-orange {
+    background-color: var(--cus-orange);
+    color: var(--bs-white);
+}
+
+.text-orange {
+    background-color: var(--cus-orange);
+}
+
+.btn-orange {
+    background-color: var(--cus-orange);
+    color: var(--cus-light-grey);
+}
+
+.btn-orange:hover {
+    background-color: var(--cus-orange-dark);
+    color: var(--bs-white);
+}
+
+.bg-maroon {
+    background-color: var(--cus-maroon);
+    color: var(--bs-white);
+}
+
+.text-maroon {
+    background-color: var(--cus-maroon);
+}
+
+.btn-maroon {
+    background-color: var(--cus-maroon);
+    color: var(--cus-light-grey);
+}
+
+.btn-maroon:hover {
+    background-color: var(--cus-maroon-dark);
+    color: var(--bs-white);
+}
+

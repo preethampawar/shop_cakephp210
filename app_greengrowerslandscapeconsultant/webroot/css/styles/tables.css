@@ -1,0 +1,22 @@
+/*
+HTML 5 Template Name: Prosperous
+File: Tables CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+table th, table td{ padding:4px 0px;}
+
+.table1{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:15px; border:1px solid #CCCCCC;}
+.table1 thead th{color:#FFFFFF; background-color:#666666; border:1px solid #CCCCCC; border-collapse:collapse; text-align:center; table-layout:auto; vertical-align:middle;}
+.table1 tbody td{vertical-align:top; border-collapse:collapse; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+.table1 thead th, .table tbody td{padding:5px; border-collapse:collapse;}
+.table1 tbody tr.light{color:#666666; background-color:#F7F7F7;}
+.table1 tbody tr.dark{color:#666666; background-color:#E8E8E8;}
+
+.table{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:15px; border-top:1px solid #dddddd; border-left:1px solid #dddddd;}
+.table thead th{color:#FFFFFF; background-color:#666666; border-right:1px solid #dddddd; border-bottom:1px solid #dddddd; border-collapse:collapse; text-align:center; table-layout:auto; vertical-align:middle;}
+.table tbody td{vertical-align:top; border-collapse:collapse; border-right:1px solid #dddddd; border-bottom:1px solid #dddddd;}
+.table thead th, .table tbody td{padding:5px; border-collapse:collapse;}
+.table tbody tr.light{color:#666666; background-color:#F7F7F7;}
+.table tbody tr.dark{color:#666666; background-color:#E8E8E8;}

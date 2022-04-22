@@ -1,0 +1,282 @@
+html{overflow-y:scroll;}
+body{margin:0; padding:0; font-size:12px; font-family:'lucida grande',verdana,helvetica,arial,sans-serif; color:#818181; }
+
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{margin:0; padding:0; list-style:none;}
+.hidden{display:none;}
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:left; margin:0 15px 15px 0; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+address, article, aside, figcaption, figure, footer, header, hgroup, nav, section{display:block; margin:0; padding:0;}
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'“ '; font-size:26px;}
+q:after{content:' „'; font-size:26px; line-height:0;}
+/* ----------------------------------------------Wrapper-------------------------------------*/
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+.row1 h1,.row1 h2,.row1 h3,.row1 h4,.row1 h5,.row1 h6{color: #e6e6e6;} 
+.row1, .row1 a {background:#ffffff url("/green2.jpg") repeat scroll 0 0; color: #e6e6e6;} 
+.row1,.row1 a:hover{color: #ffffff;}
+.row2{color:#919191; background-color:#232323;}
+.row3{color:#333; background-color:#FFFFFF;}
+.row3 a{color:#FF9900; background-color:#FFFFFF;}
+.row4{color:#989898; background-color:#333333;}
+.row4 a{color:#FF9900; background-color:#333333;}
+.row5, .row5 a{color:#919191; background-color:#232323;}
+/*----------------------------------------------Generalise-------------------------------------*/
+#header, #topnav, #container, #footer, #copyright, #subnav{display:block; width:960px; margin:0 auto;}
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:20px; font-weight:normal; line-height:normal;}
+address{font-style:normal;}
+pre{font-style:normal; font-weight:normal; line-height:1; margin:3px 0;}
+
+blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'“ '; font-size:26px;}
+blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{display:block; float:left; margin:0 40px 0 0;}
+.one_quarter{width:210px;}
+.two_quarter{width:460px;}
+.three_quarter{width:710px;}
+.four_quarter{width:960px; float:none; margin-right:0; clear:both;}
+
+.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 0;}
+.one_third{width:300px;}
+.two_third{width:630px;}
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+
+.one_fifth, .two_fifth, .three_fifth, .four_fifth, .five_fifth{display:block; float:left; margin:0 20px 0 0;}
+.one_fifth{width:176px;}
+.two_fifth{width:372px;}
+.three_fifth{width:568px;}
+.four_fifth{width:764px;}
+.five_fifth{width:960px; float:none; margin-right:0; clear:both;}
+
+.lastbox{margin-right:0;}
+
+.more{text-align:right; clear:both;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0; font-family:Georgia, "Times New Roman", Times, serif;}
+
+#header hgroup{float:left;}
+#header hgroup h1, #header hgroup h2{font-weight:normal; font-style:normal; text-transform:none;}
+#header hgroup h1{font-size:36px;}
+#header hgroup h2{font-size:13px;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:30px 0;}
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin-bottom:15px;}
+#container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+#container .last{margin:0;}
+
+/* ------Content-----*/
+
+#container #content{float:right; width:630px; margin-bottom:0;}
+
+/* ------Comments-----*/
+
+#comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
+#comments li.comment_odd, #comments li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+#comments li.comment_odd{color:#666666; background-color:#F7F7F7;}
+#comments li.comment_odd a{color:#FF9900; background-color:#F7F7F7;}
+#comments li.comment_even{color:#666666; background-color:#E8E8E8;}
+#comments li.comment_even a{color:#FF9900; background-color:#E8E8E8;}
+#comments article, #comments header{display:block; width:100%;}
+#comments figure{float:right; margin:0 0 10px 10px; padding:3px; border:1px solid #DEDACB; text-align:center;}
+#comments figure img{float:inherit;}
+#comments header address{font-weight:bold;}
+#comments header time{font-size:smaller;}
+#comments article section{margin:0; padding:0;}
+#comments article section p{margin:10px 5px 10px 0; padding:0;}
+
+/* ------Left Column-----*/
+
+#container #left_column{float:left; width:300px;}
+#container #admin_left_column{float:left; width:300px;}
+
+aside h2{padding-bottom:8px; font-size:16px; text-transform:uppercase; border-bottom:5px solid #CCCCCC; text-align:left;}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{padding:30px 0; line-height:1.6em;}
+
+#footer section{margin-bottom:0;}
+#footer section h2.title{margin:0 0 25px 0; padding:0; color:#FFFFFF; background-color:#333333; font-size:12px; font-weight:bold; text-transform:uppercase;}
+#footer section ul{margin:0; padding:0; list-style:none;}
+#footer section p{margin:5px 0; padding:0;}
+
+/* ------Blogposts-----*/
+
+#footer section article header h2{font-size:13px; font-weight:bold;}
+#footer section article address, #footer section article time{font-size:10px; font-style:normal;}
+
+/* ---Gallery Thumbs---*/
+
+#footer .ft_gallery li{float:left; margin:0 10px 10px 0; line-height:normal;}
+#footer .ft_gallery li.last{margin-right:0;}
+
+/* ---Tweet Box---*/
+
+#footer .ft_tweets li{margin-bottom:10px;}
+
+/* ------Quick Links-----*/
+
+#footer section nav li{margin:0 0 8px 0; padding:0 0 5px 0; border-bottom:1px solid #555555;}
+#footer section nav li.last{margin:0;}
+#footer section nav a{padding:0 0 0 10px; background:url("../../img/images/arrow.gif") left center no-repeat;}
+
+/*----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{padding:10px 0;}
+#copyright p{margin:0; padding: 0;}
+
+
+
+
+/*
+HTML 5 Template Name: FusionEdge
+File: Navigation CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+/* ----------------------------------------------Top Navigation-------------------------------------*/
+
+#topnav{padding:20px 0;}
+#topnav li{float:left; margin-right:30px; text-transform:uppercase;}
+#topnav li li{margin-left:0;}
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{display:block; font-weight:bold; margin:0 0 5px 0; padding:0; color:#e6e6e6; background-color:#232323;}
+#topnav ul ul li a:link, #topnav ul ul li a:visited{border:none;}
+#topnav li a:hover, #topnav li.active a{color:#FF9900; background-color:#232323;}
+#topnav li li a:link, #topnav li li a:visited{width:150px; float:none; margin:0; padding:7px 10px; color:#666666; background-color:#F9F9F9; border:none;}
+#topnav li li a:hover{color:#FF9900; background-color:#F9F9F9;}
+#topnav ul ul{z-index:9999; position:absolute; left:-999em; height:auto; width:170px; padding:5px 0 0 0; border-bottom:1px solid #666666;}
+#topnav ul ul a{width:140px;}
+#topnav li:hover ul{left:auto;}
+#topnav li:hover{position:static;}
+#topnav li.last{margin-right:0;}
+
+/* ----------------------------------------------Top Sub Navigation-------------------------------------*/
+
+#subnav{padding:10px 2px; background-color:#333333;}
+#subnav li{float:left; margin-right:30px; text-transform:uppercase;}
+#subnav li li{margin-left:0;}
+#subnav li a:link, #subnav li a:visited, #subnav li a:hover{display:block; margin:0; padding:0; color:#e6e6e6; background-color:#333333;}
+#subnav ul ul li a:link, #subnav ul ul li a:visited{border:none;}
+#subnav li a:hover, #subnav li.active a{color:#fff; background-color:#333333;}
+#subnav li li a:link, #subnav li li a:visited{width:150px; float:none; margin:0; padding:7px 10px; color:#666666; background-color:#F9F9F9; border:none;}
+#subnav li li a:hover{color:#FF9900; background-color:#F9F9F9;}
+#subnav ul ul{z-index:9999; position:absolute; left:-999em; height:auto; width:170px; padding:5px 0 0 0; border-bottom:1px solid #666666;}
+#subnav ul ul a{width:140px;}
+#subnav li:hover ul{left:auto;}
+#subnav li:hover{position:static;}
+#subnav li.last{margin-right:0;}
+
+/* ----------------------------------------------Column Navigation-------------------------------------*/
+
+#container aside nav{display:block; margin-bottom:30px;}
+#container aside nav ul{margin:0; padding:0; list-style:none;}
+#container aside nav li{margin:0 0 3px 0; padding:0;}
+#container aside nav ul ul, #container aside nav ul ul ul, #container aside nav ul ul ul ul, #container aside nav ul ul ul ul ul{border-top:none; padding-top:0;}
+#container aside nav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#666666; background:url("../../img/images/orange_file.gif") no-repeat 10px center #FFFFFF; text-decoration:none; border-bottom:1px dotted #666666;}
+#container aside nav a:hover{color:#FF9900; background-color:#FFFFFF;}
+#container aside nav ul ul a, #container aside nav ul ul ul a, #container aside nav ul ul ul ul a, #container aside nav ul ul ul ul ul a{background:url("../../img/images/black_file.gif") no-repeat #FFFFFF;}
+#container aside nav ul ul a{padding-left:40px; background-position:30px center;}
+#container aside nav ul ul ul a{padding-left:50px; background-position:40px center;}
+#container aside nav ul ul ul ul a{padding-left:60px; background-position:50px center;}
+#container aside nav ul ul ul ul ul a{padding-left:70px; background-position:60px center;}
+
+
+/* Admin Category Navigation */
+#adminCategoryNavigation  {display:block; width:300px; margin-bottom:30px;}
+#adminCategoryNavigation  ul{margin:0; padding:0; list-style:none;}
+#adminCategoryNavigation  li{margin:0 0 3px 0; padding:0; text-decoration:none; border-bottom:1px dotted #666666;}
+#adminCategoryNavigation  ul ul, #adminCategoryNavigation aside nav ul ul ul, #adminCategoryNavigation aside nav ul ul ul ul, #adminCategoryNavigation aside nav ul ul ul ul ul{border-top:none; padding-top:0;}
+#adminCategoryNavigation  a{display:inline; margin:0; padding:5px 10px 5px 5px; color:#666666; }
+#adminCategoryNavigation  a:hover{color:#FF9900; background-color:#FFFFFF;}
+
+
+
+/*
+HTML 5 Template Name: Prosperous
+File: Forms CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+
+legend{display:none;}
+
+/* input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Times,serif;} */
+
+input, textarea, select{width:95%; font-size:12px; padding:4px 4px; font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif; border:1px solid #cccccc; }
+input:focus, select:focus, textarea:focus{background-color:#FFFADC; border:1px solid #888;}
+input[readonly]{background-color:#DFDFDF;}
+input[readonly]:focus{background-color:#DFDFDF;}
+input[type=submit] {width:auto;}
+input[type=button] {width:auto;}
+input[type=checkbox] {border:0px; width:auto;}
+select {width:97%;}
+option {padding: 0px 3px;}
+
+
+/* ----------------------------------------------Search Form-------------------------------------*/
+
+#header form{display:block; width:290px; float:right; margin:5px 0 0; padding:0;}
+#header form input{display:block; float:left; width:200px; margin:0; padding:5px; color:#C0BAB6; background-color:#232323; border:1px solid #666666;}
+#header form #sf_submit{display:block; float:right; width:70px; font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#FF9900; border:none; cursor:pointer;}
+
+/* ----------------------------------------------Forms in Comment Area-------------------------------------*/
+
+#comments form{display:block; width:100%;}
+#comments form input{width:170px; padding:2px; border:1px solid #CCCCCC; margin:5px 5px 0 0;}
+#comments form textarea{width:98%; border:1px solid #CCCCCC; padding:2px; overflow:auto;}
+#comments form p{margin:5px 0;}
+#comments form #submit, #comments form #reset{margin:0; padding:5px; color:#666666; background-color:#F7F7F7; cursor:pointer;}
+
+
+
+/*
+HTML 5 Template Name: Prosperous
+File: Tables CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+table th, table td{ padding:4px 0px;}
+
+.table1{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:15px; border:1px solid #CCCCCC;}
+.table1 thead th{color:#FFFFFF; background-color:#666666; border:1px solid #CCCCCC; border-collapse:collapse; text-align:center; table-layout:auto; vertical-align:middle;}
+.table1 tbody td{vertical-align:top; border-collapse:collapse; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+.table1 thead th, .table tbody td{padding:5px; border-collapse:collapse;}
+.table1 tbody tr.light{color:#666666; background-color:#F7F7F7;}
+.table1 tbody tr.dark{color:#666666; background-color:#E8E8E8;}
+
+.table{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:15px; border-top:1px solid #dddddd; border-left:1px solid #dddddd;}
+.table thead th{color:#FFFFFF; background-color:#666666; border-right:1px solid #dddddd; border-bottom:1px solid #dddddd; border-collapse:collapse; text-align:center; table-layout:auto; vertical-align:middle;}
+.table tbody td{vertical-align:top; border-collapse:collapse; border-right:1px solid #dddddd; border-bottom:1px solid #dddddd;}
+.table thead th, .table tbody td{padding:5px; border-collapse:collapse;}
+.table tbody tr.light{color:#666666; background-color:#F7F7F7;}
+.table tbody tr.dark{color:#666666; background-color:#E8E8E8;}
