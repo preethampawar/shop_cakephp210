@@ -1,0 +1,65 @@
+{
+	"background_color": "#ffffff",
+	"description": "Buy fresh meat, ready to cook food, home made and ready-made food online. Delivered at your door steps.",
+	"dir": "ltr",
+	"display": "standalone",
+	"name": "Eat Mukka",
+	"orientation": "any",
+	"scope": "/",
+	"short_name": "EatMukka",
+	"start_url": "/",
+	"theme_color": "#ffffff",
+	"categories": ["food"],
+	"screenshots": [
+	  {
+		"src": "/img/screenshots/screenshot_360x790px.png",
+		"sizes": "360x790",
+		"type": "image/png"
+	  }
+	],
+	"shortcuts": [],
+	"icons": [
+	  {
+		"src": "/img/siteicons/logo_512x512.png",
+		"type": "image/png",
+		"sizes": "512x512"
+	  },
+	  {
+		"src": "/img/siteicons/logo_384x384.png",
+		"type": "image/png",
+		"sizes": "384x384"
+	  },
+	  {
+		"src": "/img/siteicons/logo_192x192.png",
+		"type": "image/png",
+		"sizes": "192x192",
+		"purpose": "any maskable"
+	  },
+	  {
+		"src": "/img/siteicons/logo_152x152.png",
+		"type": "image/png",
+		"sizes": "152x152"
+	  },
+	  {
+		"src": "/img/siteicons/logo_144x144.png",
+		"type": "image/png",
+		"sizes": "144x144"
+	  },
+	  {
+		"src": "/img/siteicons/logo_128x128.png",
+		"type": "image/png",
+		"sizes": "128x128"
+	  },
+	  {
+		"src": "/img/siteicons/logo_96x96.png",
+		"type": "image/png",
+		"sizes": "96x96"
+	  },
+	  {
+		"src": "/img/siteicons/logo_72x72.png",
+		"type": "image/png",
+		"sizes": "72x72"
+	  }
+	]
+  }
+  
