@@ -1,0 +1,119 @@
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:100%;
+}
+
+.form_register {
+	background:#f9f6f1;
+	-webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+}
+
+.form_register label{
+	margin-bottom:0px !important;
+	width:100%;
+}
+
+
+
+/* Style the text boxes */
+input, textarea {
+	width:100%;
+	height:38px;
+	background:#f7eeea;
+	border:1px solid #cec8c6;
+	padding:10px;
+	margin-top:0px;
+	margin-bottom:6px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	border-radius:4px;
+	outline:none;
+}
+
+textarea {
+	height:213px;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+input.country_code {
+	width:20%;
+}
+input.mobile_no {
+	width:77%;
+	float:right;
+}
+
+
+input.fname, input.femail, input.fcode, input.fpwd {	
+	text-indent: 28px;
+    background-repeat: no-repeat;
+    background-position: -5px;
+    background-size: 48px;
+}
+
+.fname {
+	background-image:url(../images/icon_user.png);
+}
+
+.femail {
+	background-image:url(../images/icon_email.png);
+}
+
+.fcode {
+	background-image:url(../images/icon_mobile.png);
+}
+
+.fpwd {
+	background-image:url(../images/icon_eye.png);
+}
+
+
+
+
+/* Checkbox style */
+	.cb {
+  display: none;
+}
+label.cb_text {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  font-size:.85em;
+  line-height: 14px;
+  margin: 0px;
+}
+label.cb_text:before {
+  line-height: 20px;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+  background-color: #f7eeea;
+  border: 1px solid #cec8c6;
+  border-radius:2px;
+}
+input[type=checkbox]:checked + label.cb_text:before,
+label.cb_text:hover:before {
+  content: "\2713";
+  color: #f60;
+  text-align: center;
+  line-height: 13px;
+}
+/* End Checkbox style */
+
+
+/*Buttons */
+
+.btn_register {
+	background-color:#636;
+	padding:6px 10px;
+	border-radius:4px;
+	color:#fff;
+	border:none;
+	margin:8px 25%;
+}
