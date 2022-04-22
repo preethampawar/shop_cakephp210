@@ -1,4 +1,0 @@
-active - under maintenance
-suspended - user needs to renewal account
-show in clients list - Displays site information on base site
-google map link
