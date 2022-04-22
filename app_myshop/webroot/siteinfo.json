@@ -1,0 +1,100 @@
+{
+  "eatmukka.com": {
+	"www": {
+	  "andriodAppBadgeUrl": "<a href='https://play.google.com/store/apps/details?id=com.eatmukka&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style='height:65px; width: auto;'/></a>",
+	  "andriodAppUrl": "https://play.google.com/store/apps/details?id=com.eatmukka",
+	  "defaultLocationId": "sangareddy",
+	  "locations": {
+		"sangareddy": {
+		  "title": "Sangareddy",
+		  "url": "www.eatmukka.com"
+		},
+		"zhb": {
+		  "title": "Zaheerabad",
+		  "url": "zhb.eatmukka.com"
+		}
+	  }
+	},
+	"zhb": {
+	  "andriodAppBadgeUrl": "<a href='https://play.google.com/store/apps/details?id=com.eatmukka&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style='height:65px; width: auto;'/></a>",
+	  "andriodAppUrl": "https://play.google.com/store/apps/details?id=com.eatmukka",
+	  "defaultLocationId": "zhb",
+	  "locations": {
+		"sangareddy": {
+		  "title": "Sangareddy",
+		  "url": "www.eatmukka.com"
+		},
+		"zhb": {
+		  "title": "Zaheerabad",
+		  "url": "zhb.eatmukka.com"
+		}
+	  }
+	}
+  },
+
+  "apnastores.com": {
+	"myshop": {
+	  "andriodAppBadgeUrl": "<a href='https://play.google.com/store/apps/details?id=com.eatmukka&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style='height:65px; width: auto;'/></a>",
+	  "andriodAppUrl": "https://play.google.com/store/apps/details?id=com.eatmukka",
+	  "defaultLocationId": "myshop",
+	  "locations": {
+		"myshop": {
+		  "title": "MyShop-Hyderabad",
+		  "url": "myshop.apnastores.com"
+		},
+		"farmfood": {
+		  "title": "FarmFood-Hyderabad",
+		  "url": "farmfood.apnastores.com"
+		}
+	  }
+	},
+	"farmfood": {
+	  "andriodAppBadgeUrl": "<a href='https://play.google.com/store/apps/details?id=com.eatmukka&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style='height:65px; width: auto;'/></a>",
+	  "andriodAppUrl": "https://play.google.com/store/apps/details?id=com.eatmukka",
+	  "defaultLocationId": "farmfood",
+	  "locations": {
+		"myshop": {
+		  "title": "MyShop-Hyderabad",
+		  "url": "myshop.apnastores.com"
+		},
+		"farmfood": {
+		  "title": "FarmFood-Hyderabad",
+		  "url": "farmfood.apnastores.com"
+		}
+	  }
+	}
+  },
+
+  "apnastores-local.com": {
+	"myshoplocal": {
+	  "andriodAppBadgeUrl": "<a href='https://play.google.com/store/apps/details?id=com.eatmukka&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style='height:65px; width: auto;'/></a>",
+	  "andriodAppUrl": "https://play.google.com/store/apps/details?id=com.eatmukka",
+	  "defaultLocationId": "myshoplocal",
+	  "locations": {
+		"myshoplocal": {
+		  "title": "MyShop-Hyderabad",
+		  "url": "myshoplocal.apnastores-local.com"
+		},
+		"farmfoodlocal": {
+		  "title": "FarmFood-Hyderabad",
+		  "url": "farmfoodlocal.apnastores-local.com"
+		}
+	  }
+	},
+	"farmfoodlocal": {
+	  "andriodAppBadgeUrl": "<a href='https://play.google.com/store/apps/details?id=com.eatmukka&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style='height:65px; width: auto;'/></a>",
+	  "andriodAppUrl": "https://play.google.com/store/apps/details?id=com.eatmukka",
+	  "defaultLocationId": "farmfoodlocal",
+	  "locations": {
+		"myshoplocal": {
+		  "title": "MyShop-Hyderabad",
+		  "url": "myshoplocal.apnastores-local.com"
+		},
+		"farmfoodlocal": {
+		  "title": "FarmFood-Hyderabad",
+		  "url": "farmfoodlocal.apnastores-local.com"
+		}
+	  }
+	}
+  }
+}

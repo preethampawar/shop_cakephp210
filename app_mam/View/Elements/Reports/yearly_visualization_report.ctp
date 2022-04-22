@@ -1,0 +1,1 @@
+ daily_visualization_report
